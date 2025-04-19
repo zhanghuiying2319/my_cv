@@ -1,0 +1,41 @@
+{{ $item := .item }}
+{{ $summary := $item.Params.summary | default $item.Params.description | default $item.Summary }}
+{{ $summary = $summary | page.RenderString }}
+
+{{ $item := .item }}
+{{ if not $item.Date }}{{ return }}{{ end }}
+
+
+<div class="w-full flex justify-center">
+  <article class="w-full max-w-3xl grid grid-cols-[8rem_1fr] gap-6 mb-10 items-start">
+    <!-- 左侧日期栏 -->
+    <div class="text-sm text-gray-400 dark:text-gray-500 mt-1 text-right pr-2">
+      {{ if $item.Date }}
+        <time datetime="{{ $item.Date | time.Format "2006-01-02" }}">
+          {{ $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") }}
+        </time>
+      {{ else }}
+        <span class="invisible">No date</span> <!-- 占位不显示 -->
+      {{ end }}
+    </div>
+
+    <!-- 右侧内容栏 -->
+    <div>
+      <h2 class="text-lg font-semibold text-gray-900 dark:text-white leading-snug">
+        <a href="{{ $item.RelPermalink }}" class="hover:underline">
+          {{ $item.Title }}
+        </a>
+      </h2>
+      {{ with $summary }}
+        <p class="mt-2 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+          {{ . | plainify }}
+        </p>
+      {{ end }}
+      <div class="mt-2">
+        <a href="{{ $item.RelPermalink }}" class="text-primary-600 dark:text-primary-300 text-sm hover:underline">
+          {{ T "read_more" | default "Read more" }} →
+        </a>
+      </div>
+    </div>
+  </article>
+</div>

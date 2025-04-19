@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Huiying Zhang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 张卉颖
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Huiying
+last_name: Zhang
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ✨
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,112 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Candidate in Atmospheric Physics
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations to display in Biography block
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: ETH Zurich
+    url: https://ethz.ch/en.html
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+  - icon: envelope
+    url: 'mailto:huiying.zhang@env.ethz.ch'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/huiying-zhang-23a994211/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=h8o4S1wAAAAJ&hl=zh-CN&oi=sra
   - icon: academicons/orcid
-    url: https://orcid.org/
-
+    url: https://orcid.org/0000-0002-5336-3724
+# Interests
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Cloud Microphysics
+  - Machine Learning 
+  - Aggregation and Riming
+  - Ice Crystal Habit
 
+# Education
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Atmospheric Physics
+    institution: ETH Zurich
+    date_start: 2021-11-01
+    date_end: 2025-12-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Working under the supervision of Prof. Ulrike Lohmann and Dr. Jan Henneberger. My research explores ice crystal habit classification using deep learning, microphysical processes during ice crystal growth such as aggregation and riming, and the integration of AI in understanding cloud microphysical mechanisms.
+      Involved in the ERC Advanced Grant project — CLOUDLAB.
+  - area: MSc Meteorology and Oceanography
+    institution: University of Oslo
+    date_start: 2019-01-01
+    date_end: 2021-12-31
     summary: |
-      GPA: 3.8/4.0
+      • Thesis title: "Development of a classification algorithm for ice crystal habit using machine learning"  
+        Supervised by Prof. Trude Storelvmo, Dr. Robert Oscar David, Prof. Alexander Binder, and Prof. Morten Hjorth-Jensen. 
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# Work
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - position: Research Assistant
+    company_name: Norwegian Meteorological Institute
+    date_start: 2020-09-01
+    date_end: 2021-05-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      • Compiled and analyzed observational data on concentration and deposition of radioactive fallout following the Chernobyl nuclear accident for model validation within the SNAP (Severe Nuclear Accident Program) at MET Norway.  
+      • Collaborated with project leaders to assess uncertainties in wet deposition and compare these with other model uncertainties, providing suggestions for future research directions.  
+
+
+# Awards
+awards:
+  - title: Best Student Oral Presentation
+    date: '2025-02-01'
+    awarder: American Meteorological Society (AMS), Annual Meeting
+    summary: |
+      "IceDetectNet: Classifying Individual Ice Components in Aggregates," has been awarded Second Place in the Best Student Oral Presentation at the 24th Conference on Artificial Intelligence for Environmental Science during the 105th AMS Annual Meeting!
+
+      This recognition is significant, as this award is typically given to no more than five recipients each year. It’s a wonderful encouragement for our work at the intersection of AI and cloud microphysics.
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming and Technical Tools
     items:
-      - name: Python
-        description: ''
-        percent: 80
+      - name: Python (Advanced; PyTorch, scikit-learn, OpenCV, xarray, pandas, numpy)
+        percent: 95
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
+      - name: Fortran (Intermediate)
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
+      - name: Git (Intermediate)
+        percent: 70
+
+  - name: Languages
+    items:
+      - name: English (Fluent)
         percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: Chinese (Native)
+        percent: 100
+      - name: Norwegian (Basic)
+        percent: 20
+      - name: German (Basic)
+        percent: 10
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Hobbies
+    color: '#f3d0b3'
+    color_border: '#e7b78f'
+    items:
+      - name: Singing (former singer of Zurich Drift band)
+        percent: 100
+        icon: music
+      - name: Hiking in the Mountains (Group leader of Crazy Hiker)
+        percent: 90
+        icon: mountain
+      - name: Taekwondo (Black Belt)
+        percent: 90
+        icon: mountain
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# Bio
+bio: |
+  I am a PhD candidate in atmospheric physics at ETH Zurich, where I explore cloud microphysical processes—particularly ice crystal habit classification, aggregation, and riming—by integrating in-situ observations with machine learning. My work aims to bridge physical understanding with data-driven approaches and has been presented at major conferences such as EGU, IUGG, AMS, and in invited talks at Peking University.
 ---
 
-## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+## About Me
+I'm currently a PhD student in <a href="https://usys.ethz.ch/en/people/profile.Mjk5NzM5.TGlzdC82MzcsMzIwMTk3MjIy.html">Atmospheric Physics at ETH Zurich</a>. I'm fortunate to be supervised by Prof. <a href="https://en.wikipedia.org/wiki/Ulrike_Lohmann">Ulrike Lohmann</a>, Dr. <a href="https://usys.ethz.ch/en/people/profile.MTcwMzU3.TGlzdC82MzcsMzIwMTk3MjIy.html">Jan Henneberger</a>, and Dr. <a href="https://usys.ethz.ch/personen/profil.MTczMjY1.TGlzdC82MzcsMzIwMTk3MjIy.html">Fabiola Ramelli</a>. Previously, I received my M.Sc. in Meteorology from the <a href="https://www.mn.uio.no/geo/english/about/organisation/metos/">University of Oslo (UiO)</a>, where I worked with Prof. <a href="https://www.mn.uio.no/geo/english/people/aca/metos/truds/">Trude Storelvmo</a>, Dr. <a href="https://www.mn.uio.no/geo/english/people/aca/metos/robdav/"> Robert O. David</a>, Prof. <a href="https://scholar.google.de/citations?user=5B8CTlEAAAAJ&hl=de">Alexander Binder</a>, and Prof. <a href="https://www.mn.uio.no/fysikk/english/people/aca/mhjensen/">Morten Hjorth-Jensen</a>.
+

@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: ""
 
 sections:
   - block: resume-biography-3
@@ -35,73 +35,73 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research lies at the intersection of cloud microphysics and machine learning. I focus on classifying ice crystal habits and detecting <a href="https://amt.copernicus.org/articles/17/7109/2024/" target="_blank">aggregated ice monomers</a>, as well as quantifying microphysical processes such as <a href="https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/451042" target="_blank">aggregation</a>, riming and <a href="https://egusphere.copernicus.org/preprints/2024/egusphere-2024-3230/" target="_blank">ice-nucleating ability</a> through targeted cloud seeding experiments. My work involves both traditional <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=h8o4S1wAAAAJ&citation_for_view=h8o4S1wAAAAJ:u5HHmVD_uO8C" target="_blank">supervised learning</a> and <a href="https://egusphere.copernicus.org/preprints/2024/egusphere-2024-3160/" target="_blank">semi-supervised learning</a>, with a focus on <a href="https://amt.copernicus.org/articles/17/7109/2024/" target="_blank">rotated object detection</a>. I also apply interpretable machine learning methods such as CatBoost and random forests for microphysical process analysis. Currently, I'm part of the ERC Advanced Grant project <a href="https://cloudlab.ethz.ch/" target="_blank">CLOUDLAB</a>, which investigates ice formation and evolution in mixed-phase clouds through in situ observations, remote sensing, machine learning, and modeling.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: post
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: date-title-summary
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
+ 
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 3
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ""
+  #     count: 4
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: article-grid
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 2
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
